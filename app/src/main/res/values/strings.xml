@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Firebase Upload Example</string>
+
+
+    <string-array name="names">
+        <item>Përzgjedh llojin e gabimit</item>
+        <item>Informatë e pasaktë</item>
+        <item>Gabim drejtshkrimor</item>
+        <item>Përmbajtje fyese</item>
+        <item>Shfaqje e dhunës</item>
+        <item>Përkthim i gabuar</item>
+        <item>Tjetër</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.platformaegabimeve">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rectify"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="rectify.app.platformaegabimeve.OptionsActivity"></activity>
+        <activity android:name="rectify.app.platformaegabimeve.CardOtherActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardTranslateActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardViolentActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardContentActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardSpellingActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardInfoActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.CardView" />
+        <activity android:name="rectify.app.platformaegabimeve.HomeActivity" />
+        <activity
+            android:name="rectify.app.platformaegabimeve.Splash"
+            android:theme="@style/AppThemee">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="rectify.app.platformaegabimeve.MainActivity" />
+        <activity android:name="rectify.app.platformaegabimeve.ImagesActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

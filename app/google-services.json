@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471461659446",
+    "firebase_url": "https://fir-upload-example-a4be6.firebaseio.com",
+    "project_id": "fir-upload-example-a4be6",
+    "storage_bucket": "fir-upload-example-a4be6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471461659446:android:2b29a1ea503ca62e5de997",
+        "android_client_info": {
+          "package_name": "rectify.app.platformaegabimeve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471461659446-h1fr6p4kohvk15hvj255is6uiu2rug0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAidBrmlUKsyuhCAJ0EMHvzH778WZsxTmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471461659446-h1fr6p4kohvk15hvj255is6uiu2rug0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

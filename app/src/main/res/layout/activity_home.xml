@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rectify.app.platformaegabimeve.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/haak"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/finalblue"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="49dp"
+            android:src="@drawable/ic_book" />
+
+        <TextView
+            android:fontFamily="@font/signika"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="RECTIFY"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:fontFamily="@font/signika"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Platforma për raportimin dhe korrigjimin e gabimeve në tekstet mësimore" />
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/signika"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="info.rectify@gmail.com" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aiiai"
+        android:layout_width="403dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haak">
+
+
+        <Button
+            android:id="@+id/buton1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:background="@color/finalred"
+            android:backgroundTint="@color/finalred"
+            android:fontFamily="@font/signika"
+            android:textStyle="bold"
+            android:text="Raporto gabimin"
+            app:icon="@drawable/error"></Button>
+
+        <Button
+            android:id="@+id/buton2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/finalyell"
+            android:fontFamily="@font/signika"
+            android:textStyle="bold"
+            android:text="Raportimet sipas kategorive"
+            app:icon="@drawable/category"></Button>
+
+        <Button
+            android:id="@+id/buton3"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/signika"
+            android:textStyle="bold"
+            android:text="Shpërndaje me të tjerët"
+
+            app:icon="@drawable/share"></Button>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

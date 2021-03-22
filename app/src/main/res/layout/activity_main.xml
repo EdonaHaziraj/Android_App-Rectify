@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/finalblue"
+    tools:context="rectify.app.platformaegabimeve.MainActivity">
+
+
+    <Button
+
+        android:id="@+id/button_choose_image"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/finalyell"
+        android:fontFamily="@font/signika"
+        android:text="Shto foton"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_add_24dp" />
+
+    <!-- <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="250dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/edit_text_file_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style_spinner1" />-->
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginLeft="9dp"
+
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/signika"
+        android:hint="Jepni detajet e raportimit ose korrigjojeni" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="395dp"
+        android:layout_height="372dp"
+        android:layout_above="@id/progress_bar"
+        android:layout_below="@id/edit_text_file_name"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="24dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:background="@color/lightblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_alignParentBottom="true"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:backgroundTint="@color/finalred"
+        android:fontFamily="@font/signika"
+        android:textStyle="bold"
+        android:text="Raporto gabimin" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:gravity="center"
+        android:fontFamily="@font/signika"
+        android:text="Shih raportimet e fundit"
+
+        android:textSize="16sp" />
+
+</RelativeLayout>
